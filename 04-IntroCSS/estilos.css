@@ -1,0 +1,33 @@
+h1 {
+    color: red;
+}
+
+/* Estoy realizando un comentario en CSS */
+p {
+    color: blueviolet;
+    font-size: 16pt;
+}
+
+#primera-noticia {
+    color: green;
+    font-size: 20pt;
+}
+
+#segunda-noticia {
+    color: orange;
+    font-size: 20pt;
+}
+
+.titulo2 {
+    color: aqua;
+    font-size: 28pt;
+}
+
+*.warning {
+    color: royalblue;
+    border-radius: 5%;
+}
+
+.autor, .fecha, .ubicacion {
+    text-decoration: underline;
+}
