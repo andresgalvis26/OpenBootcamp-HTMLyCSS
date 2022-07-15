@@ -1,0 +1,67 @@
+.input {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Accediendo a otros tipos de input */
+.input[type="password"] {
+    color: red;
+}
+
+.input-moderno {
+    border: none;
+    border-bottom: 1px solid #eeeeee;
+    outline: none;
+    padding: 5px;
+    color: #666666;
+}
+
+.input-moderno::placeholder {
+    color: gold;
+}
+
+.input-moderno:focus {
+    border-bottom: 1px solid #464646;
+}
+
+.input-background {
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.input-background::placeholder {
+    color: rgb(146, 146, 146);
+}
+
+/* Trabajando con iconos */
+.input-search {
+    padding: 10px;
+    border: none;
+    padding-left: 50px;
+    background-color: #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    background-image: url('../img/lupa.png');
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+
+/* Limitar la redimensión del textarea */
+textarea {
+    resize: horizontal;
+    /* resize: none; */
+}
+
+select {
+    width: 100%;
+    padding: 15px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
