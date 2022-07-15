@@ -1,0 +1,46 @@
+.contenedor-hidden {
+    background-color: beige;
+    margin: 10px;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.contenedor-scroll {
+    background-color: beige;
+    margin: 10px;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: scroll;
+}
+
+/* Como se veía de forma inicial */
+.contenedor-visible {
+    background-color: beige;
+    margin: 10px;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: visible;
+}
+
+.contenedor-auto {
+    background-color: beige;
+    margin: 10px;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: auto;
+}
+
+.contenedor-scroll-x {
+    background-color: beige;
+    margin: 10px;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
