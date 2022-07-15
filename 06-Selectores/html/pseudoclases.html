@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pseudoclases</title>
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+            }
+
+            .hover {
+                width: 300px;
+                height: 100px;
+                background-color: beige;
+                margin: 15px;
+                padding: 10px;
+            }
+
+            .hover:hover {
+                background-color: blueviolet;
+            }
+
+            .listado {
+                padding: 15px;
+                margin: 5px;
+                background-color: aquamarine;
+            }
+
+            .listado p:first-child {
+                color: white;
+            }
+
+            a:link {
+                color: palevioletred
+            }
+
+            a:visited {
+                color: green;
+            }
+
+            a:hover {
+                color: goldenrod;
+            }
+
+            a:active {
+                color: brown;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="hover">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            autem unde facere nesciunt quas? Pariatur, hic incidunt, quia
+            veritatis ducimus beatae quam sint ad recusandae ab doloribus
+            voluptatem, harum vero cum officiis.
+        </div>
+        <div class="listado">
+            <p>Párrafo 1</p>
+            <p>Párrafo 2</p>
+            <p>Párrafo 3</p>
+        </div>
+        <div class="enlaces">
+            <a href="http://google.com" target="_blank">Enlace a Google</a>
+            <a href="http://facebook.com" target="_blank">Enlace a Facebook</a>
+        </div>
+    </body>
+</html>

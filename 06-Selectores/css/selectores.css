@@ -1,0 +1,13 @@
+/* 
+.p-contenedor {
+    color: yellowgreen;
+}
+*/
+
+.contenedor p {
+    color: yellowgreen;
+}
+
+.contenedor #boton-contenedor {
+    background-color: aqua;
+}

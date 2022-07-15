@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#boton-contenedor {
+    width: 100vw;
+    height: 150px;
+    margin-top: 15px;
+}
+
+#boton-contenedor::before {
+    content: 'Pasa por encima';
+}
+
+#boton-contenedor:hover {
+    cursor: pointer;
+    color: white;
+    background-color: green;
+}
+
+#boton-contenedor::after {
+
+    content: 'Hecho!'
+
+}

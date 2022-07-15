@@ -1,0 +1,21 @@
+#h1-id {
+    color: seagreen;
+}
+
+#h1-id .h1-clase {
+    color: seagreen;
+}
+
+.h1-clase {
+    color: yellow;
+}
+
+h1 {
+    color: blue !important;
+}
+
+
+
+p {
+    color: red;
+}
