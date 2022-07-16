@@ -1,0 +1,25 @@
+.contenedor {
+    background-color: yellow;
+    padding: 0.75rem;
+    display: flex;
+    gap: 1rem;
+    height: 5rem;
+
+    /* Eje Principal */
+    justify-content: center;
+
+    /* Eje Secundario */
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: tomato;
+    padding: 0.5rem;
+    width: 10rem;
+}
+
+.item2 {
+    align-self: stretch;
+}
