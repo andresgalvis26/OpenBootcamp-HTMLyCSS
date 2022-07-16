@@ -1,0 +1,38 @@
+.contenedor {
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-columns: 20px 3rem 25vw; */
+    /* grid-template-columns: 1fr 1fr 2fr; */
+    grid-template-columns: repeat(3, auto);
+
+    grid-template-rows: 200px 4rem 1fr;
+
+    /* grid-template-areas: 'head head head'  'main main aside' 'footer footer footer'; */
+
+    /* Este gap es lo mismo que */
+    gap: 0.5rem;
+    /* Esto */
+    /*     column-gap: 2rem;
+    row-gap: 2rem; */
+}
+
+.item {
+    background-color: aquamarine;
+    padding: 0.25rem;
+    font-size: 2rem;
+    border: 1px solid red;
+}
+
+
+.item1 {
+    grid-column: 2 / span 2;
+    grid-area: head;
+}
+
+/*
+.item2 {
+    grid-area: 2 / 1 / 4 / 3;
+    grid-area: filainicio / colinicio / filafin / colfin
+    grid-area: main;
+} 
+*/
